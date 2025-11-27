@@ -1,5 +1,5 @@
 x,y=[int(x) for x in input().split()]
-nums= list([int(a) for a in input().split()])
+nums= list(map(int, input().split()))
 freq=[]
 
 for i in range(1,y+1):
